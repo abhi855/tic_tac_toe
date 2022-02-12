@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-
 import 'models/values.dart';
-
 void main() {
   runApp(const MyApp());
 }
@@ -143,7 +141,9 @@ class _MyHomePageState extends State<MyHomePage> {
                           builder: (_, values, __) => Text(
                             values.value[index],
                             style: const TextStyle(
-                                fontSize: 90, fontWeight: FontWeight.bold),
+                                fontSize: 90, fontWeight: FontWeight.bold,
+                              color: Colors.blueGrey
+                            ),
                           ),
                         ),
                       ),

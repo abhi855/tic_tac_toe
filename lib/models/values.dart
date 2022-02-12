@@ -72,11 +72,10 @@ class Values extends ChangeNotifier {
             title: Center(
               child: Text(
                 alert,
-                style: const TextStyle(
+                style: TextStyle(
                   fontSize: 30,
                   fontWeight: FontWeight.bold,
-                  color: Colors.deepPurpleAccent
-
+                  color: Colors.deepPurple[900]
                 ),
               ),
             ),
